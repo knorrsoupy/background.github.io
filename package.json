@@ -1,0 +1,22 @@
+{
+  "name": "change-background",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knorrsoupy/change-background.git"
+  },
+  "author": "Souparna Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knorrsoupy/change-background/issues"
+  },
+  "homepage": "https://github.com/knorrsoupy/change-background#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
